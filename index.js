@@ -5,10 +5,7 @@ module.exports = {
     'prettier',
     'prettier/@typescript-eslint'
   ],
-  parser: 'vue-eslint-parser',
-  parserOptions: {
-    parser: '@typescript-eslint/parser'
-  },
+  parser: '@typescript-eslint/parser',
   settings: {
     'import/resolver': 'webpack'
   },
