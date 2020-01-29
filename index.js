@@ -12,7 +12,8 @@ module.exports = {
   ],
   parser: '@typescript-eslint/parser',
   settings: {
-    'import/resolver': 'webpack'
+    'import/resolver': 'webpack',
+    react: { version: 'detect' }
   },
   rules: {
     'no-console': ['error', { allow: ['info', 'warn', 'error'] }]
