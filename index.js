@@ -16,6 +16,12 @@ module.exports = {
     react: { version: 'detect' }
   },
   rules: {
-    'no-console': ['error', { allow: ['info', 'warn', 'error'] }]
+    'no-console': ['error', { allow: ['info', 'warn', 'error'] }],
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: ['stories/**', 'test/**']
+      }
+    ]
   }
 }
