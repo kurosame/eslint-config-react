@@ -10,6 +10,7 @@ module.exports = {
     'prettier',
     'prettier/@typescript-eslint'
   ],
+  plugins: ['react-hooks'],
   parser: '@typescript-eslint/parser',
   settings: {
     'import/resolver': 'webpack',
@@ -19,9 +20,9 @@ module.exports = {
     'no-console': ['error', { allow: ['info', 'warn', 'error'] }],
     'import/no-extraneous-dependencies': [
       'error',
-      {
-        devDependencies: ['stories/**', 'test/**']
-      }
-    ]
+      { devDependencies: ['stories/**', 'test/**'] }
+    ],
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn'
   }
 }

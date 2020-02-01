@@ -1,6 +1,6 @@
 {
   "name": "@kurosame/eslint-config-react",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "ESLint config for React",
   "main": "index.js",
   "repository": {
@@ -29,6 +29,7 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^2.3.0",
     "prettier": "^1.18.2"
   }
 }
