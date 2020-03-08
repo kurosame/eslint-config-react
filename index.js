@@ -18,6 +18,7 @@ module.exports = {
     react: { version: 'detect' }
   },
   rules: {
+    camelcase: ['error', { properties: 'never' }],
     'no-console': ['error', { allow: ['info', 'warn', 'error'] }],
     'import/no-extraneous-dependencies': [
       'error',
