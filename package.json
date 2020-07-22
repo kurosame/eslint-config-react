@@ -1,6 +1,6 @@
 {
   "name": "@kurosame/eslint-config-react",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "ESLint config for React",
   "main": "index.js",
   "repository": {
@@ -28,6 +28,7 @@
     "eslint-import-resolver-webpack": "^0.12.0",
     "eslint-plugin-cypress": "^2.8.1",
     "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^23.18.0",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^4.0.0",

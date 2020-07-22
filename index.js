@@ -1,17 +1,19 @@
 module.exports = {
   env: {
     browser: true,
-    jest: true,
+    'jest/globals': true,
     'cypress/globals': true
   },
   extends: [
     'airbnb-base',
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
+    'plugin:jest/recommended',
+    'plugin:cypress/recommended',
     'prettier',
     'prettier/@typescript-eslint'
   ],
-  plugins: ['react-hooks', 'cypress'],
+  plugins: ['react-hooks', 'jest', 'cypress'],
   parser: '@typescript-eslint/parser',
   settings: {
     'import/resolver': 'webpack',
