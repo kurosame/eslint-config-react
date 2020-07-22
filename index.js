@@ -15,6 +15,7 @@ module.exports = {
   ],
   plugins: ['react-hooks', 'jest', 'cypress'],
   parser: '@typescript-eslint/parser',
+  parserOptions: { ecmaFeatures: { jsx: true } },
   settings: {
     'import/resolver': 'webpack',
     react: { version: 'detect' }
