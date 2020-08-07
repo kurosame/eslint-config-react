@@ -29,6 +29,15 @@ module.exports = {
       { devDependencies: ['stories/**', 'test/**'] }
     ],
     'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn'
+    'react-hooks/exhaustive-deps': 'warn',
+    'prettier/prettier': [
+      'error',
+      {
+        arrowParens: 'avoid',
+        semi: false,
+        singleQuote: true,
+        trailingComma: 'none'
+      }
+    ]
   }
 }
