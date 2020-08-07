@@ -38,6 +38,8 @@ module.exports = {
         singleQuote: true,
         trailingComma: 'none'
       }
-    ]
+    ],
+    // Conflict to Prettier
+    'space-before-function-paren': 'off'
   }
 }
