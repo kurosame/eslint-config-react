@@ -1,4 +1,3 @@
 {
-  "extends": ["config:base", ":pinDependencies"],
-  "automerge": true
+  "extends": [":pinDependencies", ":automergeMajor", "config:base"]
 }
