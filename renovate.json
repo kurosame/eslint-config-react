@@ -1,3 +1,9 @@
 {
-  "extends": [":pinDependencies", ":automergeMajor", "config:base"]
+  "extends": [
+    ":pinDependencies",
+    ":prImmediately",
+    ":automergeMajor",
+    ":ignoreUnstable",
+    ":updateNotScheduled"
+  ]
 }
