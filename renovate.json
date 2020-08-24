@@ -1,9 +1,6 @@
 {
   "extends": [
     ":pinDependencies",
-    ":prImmediately",
-    ":automergeMajor",
-    ":ignoreUnstable",
-    ":updateNotScheduled"
+    ":automergeMajor"
   ]
 }
