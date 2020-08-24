@@ -1,9 +1,15 @@
 {
   "extends": [
-    ":pinDependencies",
-    "packageRules": [
+    ":pinDependencies"
+  ],
+  "packageRules": [
     {
-      "updateTypes": ["minor", "patch", "pin", "digest"],
+      "updateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest"
+      ],
       "automerge": true
     }
   ]
