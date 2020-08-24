@@ -1,0 +1,15 @@
+name: Lighthouse
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  lighthouse:
+    name: Run Lighthouse
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: echo "aaa"
